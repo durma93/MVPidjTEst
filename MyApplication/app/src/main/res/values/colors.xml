@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#162D40</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#162D40</color>
+    <color name="overscroll">#000000</color>
+    <color name="colorDark">#303F9F</color>
+    <color name="actionBarC">#172D42</color>
+    <color name="detail_fragment_background">#E9EFEF</color>
+    <color name="detail_fragment_tint_color">#B9B5BD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#00FF00</color>
+    <color name="gray">#8C8C8C</color>
+    <color name="backround">#e9efef</color>
+    <color name="fontAppSettings">#8c8c8c</color>
+    <color name="buttonLogout">#ff9b00</color>
+    <color name="buttonsSettings">#1f4868</color>
+    <color name="addresNumber">#00C1FF</color>
+    <color name="strictBlue">#1B3F59</color>
+    <color name="extendedListBackground">#E7EFF1</color>
+    <color name="secondLevelText">#6E8595</color>
+    <color name="userIDColor">#7ba5a7</color>
+    <color name="headerText">#4b7491</color>
+    <color name="orange">#ff9b00</color>
+    <color name="placeholder">#9cacb7</color>
+
+
+</resources>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/durma/Projekti/DryCodeRefactoringApp/Episode1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/durma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/4b079ae461a8c9251c57c8d2426c78bf/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

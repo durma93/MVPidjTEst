@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:layout_marginTop="5dp"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/textKupiNa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:text="Kupi na:"
+            android:textColor="@color/secondaryTextColor"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/iTunesIcon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/itunes2"
+            android:tint="@color/white"/>
+
+        <ImageView
+            android:id="@+id/amazonIcon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/amazon2"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/googlePayIcon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/google_play2"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textSlusaiNa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:text="Slušaj na:"
+            android:textColor="@color/secondaryTextColor"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/deezerIcon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/deezer2"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/spotifyIcon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/spotify2"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/youtubeIcon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/youtube2"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.durmeuu.framelayout.MainActivity">
+
+
+        <ImageView
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="fitCenter"
+            android:layout_height="250dp"
+            android:layout_width="250dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:text="Frame Demo"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center"/>              <!-- Centriranje texta na sredinu ekrana -->
+</FrameLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.durma.sqlitenewbostontutorijal.MainActivity">
+
+    <EditText
+        android:id="@+id/inputNaziv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:hint="Naziv videa"/>
+
+    <EditText
+        android:id="@+id/intputAutor"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputNaziv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Autor"
+        android:digits="0123456789*,qwertzuiopasdfghjklyxcvbnm"/>
+
+    <EditText
+        android:id="@+id/inputDuzina"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intputAutor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Duzina trajanja" />
+
+    <Button
+        android:id="@+id/addd"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputDuzina"
+        android:layout_alignStart="@+id/inputDuzina"
+        android:layout_below="@+id/inputDuzina"
+        android:layout_marginTop="20dp"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addd"
+        android:layout_alignBottom="@+id/addd"
+        android:layout_alignEnd="@+id/inputNaziv"
+        android:layout_alignRight="@+id/inputNaziv"
+        android:text="remove" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/addd"
+        android:layout_marginTop="43dp">
+
+        <TextView
+            android:id="@+id/display_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="text"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

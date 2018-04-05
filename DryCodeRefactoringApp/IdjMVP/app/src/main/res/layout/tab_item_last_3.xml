@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabLayoutLast3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_margin="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:src="@drawable/krvavi_balkan"
+            android:scaleType="fitXY"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="140dp"
+        android:maxHeight="200dp"
+        android:text="THCF x COBY - KRVAVI BALKAN"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:paddingTop="3dp"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="140dp"
+        android:maxHeight="200dp"
+        android:textSize="10sp"
+        android:textColor="@android:color/white"
+        android:paddingTop="3dp"/>
+
+</LinearLayout>

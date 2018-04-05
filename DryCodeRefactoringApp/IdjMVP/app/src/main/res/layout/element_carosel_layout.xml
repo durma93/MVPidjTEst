@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    app:layout_anchorGravity="center"
+
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        >
+
+            <ImageView
+                android:id="@+id/sliderImage"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/krvavi_balkan"
+                android:scaleType="fitXY"
+                />
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_below="@id/card"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/card"
+        android:layout_alignStart="@id/card"
+        android:layout_alignEnd="@id/card"
+        android:layout_alignRight="@id/card"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingRight="15dp">
+        <TextView
+            android:id="@+id/naziv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SaraJo - Mahovina"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/brojPregleda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9,403,404 views"
+            android:textColor="@android:color/white"
+            android:textSize="11sp"
+            />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
